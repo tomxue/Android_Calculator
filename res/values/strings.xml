@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">MyCalculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TomCalculator</string>
+    <string name="result_default">0</string>
+    <string name="Button7_text">7</string>
+    <string name="Button8_text">8</string>
+    <string name="Button9_text">9</string>
+    <string name="Button4_text">4</string>
+    <string name="Button5_text">5</string>
+    <string name="Button6_text">6</string>
+    <string name="Button1_text">1</string>
+    <string name="Button2_text">2</string>
+    <string name="Button3_text">3</string>
+    <string name="Button0_text">0</string>
+    <string name="Button_div">÷</string>
+    <string name="Button_mul">×</string>
+    <string name="Button_add">+</string>
+    <string name="Button_minus">-</string>
+    <string name="Button_equal">=</string>
+
+</resources>
