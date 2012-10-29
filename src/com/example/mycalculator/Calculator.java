@@ -327,9 +327,8 @@ public class Calculator extends Activity {
 
 	public void DisplayToast(String str) {
 		Toast toast = Toast.makeText(this, str, Toast.LENGTH_SHORT);
-		// 设置toast显示的位置
+		// set the position of toast
 		toast.setGravity(Gravity.BOTTOM, 0, 600);
-		// 显示该Toast
 		toast.show();
 	}
 }
