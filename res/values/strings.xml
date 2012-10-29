@@ -19,5 +19,7 @@
     <string name="Button_add">+</string>
     <string name="Button_minus">-</string>
     <string name="Button_equal">=</string>
+    <string name="Button_quit">Quit</string>
+    <string name="Button_ac">AC</string>
 
 </resources>

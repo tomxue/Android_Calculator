@@ -25,13 +25,15 @@ public final class R {
         public static final int button7=0x7f070001;
         public static final int button8=0x7f070002;
         public static final int button9=0x7f070003;
-        public static final int button_add=0x7f07000d;
-        public static final int button_div=0x7f07000b;
-        public static final int button_equal=0x7f07000e;
-        public static final int button_minus=0x7f07000f;
-        public static final int button_mul=0x7f07000c;
+        public static final int button_ac=0x7f07000e;
+        public static final int button_add=0x7f07000c;
+        public static final int button_div=0x7f07000f;
+        public static final int button_equal=0x7f070011;
+        public static final int button_minus=0x7f070010;
+        public static final int button_mul=0x7f07000b;
+        public static final int button_quit=0x7f07000d;
         public static final int editText_result=0x7f070000;
-        public static final int menu_settings=0x7f070010;
+        public static final int menu_settings=0x7f070012;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -50,11 +52,13 @@ public final class R {
         public static final int Button7_text=0x7f040004;
         public static final int Button8_text=0x7f040005;
         public static final int Button9_text=0x7f040006;
+        public static final int Button_ac=0x7f040014;
         public static final int Button_add=0x7f040010;
         public static final int Button_div=0x7f04000e;
         public static final int Button_equal=0x7f040012;
         public static final int Button_minus=0x7f040011;
         public static final int Button_mul=0x7f04000f;
+        public static final int Button_quit=0x7f040013;
         public static final int app_name=0x7f040000;
         public static final int menu_settings=0x7f040001;
         public static final int result_default=0x7f040003;
