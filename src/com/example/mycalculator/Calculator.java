@@ -295,7 +295,7 @@ public class Calculator extends Activity {
 	private Button.OnClickListener mClickListener_button_minus = new Button.OnClickListener() {
 		@Override
 		public void onClick(View arg0) {
-			operator1 = 1;
+			operator1 = 4;
 			// DisplayToast("minus");
 		}
 	};
@@ -304,14 +304,23 @@ public class Calculator extends Activity {
 		@Override
 		public void onClick(View arg0) {
 			operator2 = 1;
-			if (operator1 == 1) // multiply
+			switch (operator1) {
+			case 1: // multiply
 				num3 = num1 * num2;
-			else if (operator1 == 2) // divide
+				break;
+			case 2: // divide
 				num3 = (float) num1 / num2;
-			else if (operator1 == 3) // add
+				break;
+			case 3: // add
 				num3 = num1 + num2;
-			else if (operator1 == 4) // minus
+				break;
+			case 4: // minus
 				num3 = num1 - num2;
+				break;
+			default:
+				num3 = 0;
+				break;
+			}
 
 			EditText editText_result = (EditText) findViewById(R.id.editText_result);
 			editText_result.setText(Float.toString(num3));
@@ -327,8 +336,9 @@ public class Calculator extends Activity {
 
 	public void DisplayToast(String str) {
 		Toast toast = Toast.makeText(this, str, Toast.LENGTH_SHORT);
-		// set the position of toast
+		// 设置toast显示的位置
 		toast.setGravity(Gravity.BOTTOM, 0, 600);
+		// 显示该Toast
 		toast.show();
 	}
 }
